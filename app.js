@@ -1,0 +1,10 @@
+console.log('hello world')
+console.log('Frontend Simplified is amazing')
+console.log('100')
+console.log('Hello, ' + 'David')
+console.log('David'[0])
+console.log('hello World'[10])
+console.log(''.length)
+console.log('12345'.length)
+let str = 'David'
+console.log(str[str.length - 1])
