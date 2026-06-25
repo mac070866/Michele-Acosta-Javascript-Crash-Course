@@ -68,3 +68,13 @@ else {
     console.log("not enough money - you still owe x dollars")
 }
 
+
+let val ="";
+
+if (val) {
+    console.log("truthy value", !!val)
+}
+else {
+    console.log("falsy value", !!val)
+}
+
