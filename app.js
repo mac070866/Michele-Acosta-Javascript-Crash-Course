@@ -78,3 +78,9 @@ else {
     console.log("falsy value", !!val)
 }
 
+
+
+let hot = false
+hot ? console.log('weather is hot outside') : console.log('weather is cold')
+
+
