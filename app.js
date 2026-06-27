@@ -92,3 +92,16 @@ while (count <= 100) {
     console.log (count)
     count = count +1;
 }
+
+
+// DRY = Don't repeat youself
+// let count = 1;
+
+// while (count <=100) {
+//    console.log(count)
+// }
+
+for (let i = 0; i < 3; i = i++) {
+    console.log(i);
+}
+
