@@ -84,3 +84,11 @@ let hot = false
 hot ? console.log('weather is hot outside') : console.log('weather is cold')
 
 
+// DRY = Don't repeat yourself
+let count = 1;
+
+
+while (count <= 100) {
+    console.log (count)
+    count = count +1;
+}
