@@ -163,3 +163,16 @@ const str = "Andrew"
 for (let i = 0; i < str.length; ++i) {
     console.log(str[i])
 }
+
+
+
+//DRY - Don't Repeat Yourself
+
+//Function definition
+function welcomePersonToFES(name) {
+    //console.log("Welcome to FES, David")
+console.log(name)
+}
+
+// Call the function
+welcomePersonToFES('Omair');
