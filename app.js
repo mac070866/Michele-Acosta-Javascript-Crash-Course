@@ -169,10 +169,16 @@ for (let i = 0; i < str.length; ++i) {
 //DRY - Don't Repeat Yourself
 
 //Function definition
-function welcomePersonToFES(name) {
-    //console.log("Welcome to FES, David")
-console.log(name)
+function welcomePersonToFES(firstName, lastName) {
+    console.log(`Welcome to FES, ${firstName} ${lastName}`)
 }
 
 // Call the function
+welcomePersonToFES('Michele', 'Acosta')
+welcomePersonToFES('Aaron');
 welcomePersonToFES('Omair');
+welcomePersonToFES('Andrew');
+welcomePersonToFES('Frank');
+welcomePersonToFES('Nathalie');
+welcomePersonToFES('Hristina');
+welcomePersonToFES('Khosro');
