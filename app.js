@@ -182,3 +182,11 @@ welcomePersonToFES('Frank');
 welcomePersonToFES('Nathalie');
 welcomePersonToFES('Hristina');
 welcomePersonToFES('Khosro');
+
+
+function fn() {
+    return 5
+    console.log('my function')
+}
+
+console.log(5);
