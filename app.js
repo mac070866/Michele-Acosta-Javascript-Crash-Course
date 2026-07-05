@@ -182,6 +182,7 @@ welcomePersonToFES('Frank');
 welcomePersonToFES('Nathalie');
 welcomePersonToFES('Hristina');
 welcomePersonToFES('Khosro');
+welcomePersonToFES('Rose');
 
 
 function fn() {
@@ -190,3 +191,35 @@ function fn() {
 }
 
 console.log(5);
+
+
+
+function sumOfTwoNumbers() {
+    return 5 + 10
+}
+
+console.log(sumOfTwoNumbers());
+
+
+
+function sumOfTwoNumbers() {
+    return 5 + 10
+}
+
+console.log(sumOfTwoNumbers(10, 10));
+
+
+
+function sumOfTwoNumbers(num1, num2) {
+     return num1 + num2
+}
+
+console.log(sumOfTwoNumbers(10, 20));
+
+
+
+function sumOfTwoNumbers(num1, num2) {
+     return num1 / num2
+}
+
+console.log(sumOfTwoNumbers(10, 20));
