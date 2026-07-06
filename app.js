@@ -223,3 +223,39 @@ function sumOfTwoNumbers(num1, num2) {
 }
 
 console.log(sumOfTwoNumbers(10, 20));
+
+
+
+/**Create a function that converts Celsius to Fahrenheit
+ * 
+ * Celsius to Fahrenheit formula:
+ * F = C x 1.8 + 32
+ * 
+ * 
+ * @example
+ * convertCelsiusToFahrenheit(0) -> 32
+ * convertCelsiusToFahrenheit(0) -> 50
+ * convertCelsiusToFahrenheit(0) -> 86
+ */
+
+
+function convertCelsiusToFahrenheit(celsius) {
+    let fahrenheit = celcius * 1.8 + 32
+    return fahrenheit
+}
+
+console.log(convertCelsiusToFahrenheit(0))
+
+/** this one below is better version and 
+ * should use thn the one right above getting 
+ * same answer that is cleaner
+ */    
+
+
+function convertCelsiusToFahrenheit(celsius) {
+    return celsius * 1.8 + 32 
+}
+
+console.log(convertCelsiusToFahrenheit(0))
+console.log(convertCelsiusToFahrenheit(10))
+console.log(convertCelsiusToFahrenheit(30))
