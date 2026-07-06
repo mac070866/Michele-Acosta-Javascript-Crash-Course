@@ -251,11 +251,21 @@ console.log(convertCelsiusToFahrenheit(0))
  * same answer that is cleaner
  */    
 
+// function convertCelsiusToFahrenheit(celsius) {
+//     return celsius * 1.8 + 32 
+// }
 
-function convertCelsiusToFahrenheit(celsius) {
-    return celsius * 1.8 + 32 
+// console.log(convertCelsiusToFahrenheit(0))
+// console.log(convertCelsiusToFahrenheit(10))
+// console.log(convertCelsiusToFahrenheit(30))
+
+
+// function convertCelsiusToFahrenheit(celsius) using arrow{
+//     return celsius * 1.8 + 32 
+// }
+
+const convertCelsiusToFahrenheit = () => {
+
 }
 
 console.log(convertCelsiusToFahrenheit(0))
-console.log(convertCelsiusToFahrenheit(10))
-console.log(convertCelsiusToFahrenheit(30))
