@@ -267,11 +267,11 @@ const convertCelsiusToFahrenheit = (celsius) => {
 
 console.log(convertCelsiusToFahrenheit(0))
 
+// Arrays below
+let arr = [20, 30, 40, 50, 100]
 
-let item1 = 20
-let item2 = 30
-let item3 = 40
-let item4 = 50
-let item5 = 100
+// First element of array:
+console.log(arr[0])
 
-let arr = [20. 30. 40, 50, 100]
+// Last element of array:
+console.log(arr[arr.length - 1])
