@@ -260,22 +260,26 @@ for (let i = 0; i < str.length; ++i) {
 // console.log(convertCelsiusToFahrenheit(30))
 
 
-const convertCelsiusToFahrenheit = (celsius) => {
-    return celsius * 1.8 + 32
+// const convertCelsiusToFahrenheit = (celsius) => {
+//     return celsius * 1.8 + 32
 
-}
+// 
 
-console.log(convertCelsiusToFahrenheit(0))
+// console.log(convertCelsiusToFahrenheit(0))
 
 // Arrays below
 let arr = [20, 30, 40, 50, 100]
 
-// First element of array:
-console.log(arr[0])
+// {// First element of array:
+// console.log(arr[0])
 
-// Last element of array:
-console.log(arr[arr.length - 1])
+// // Last element of array:
+// console.log(arr[arr.length - 1])
 
-arr.push(200)
+// //Add element onto end of array:
+// arr.push(200)}
 
-console.log(arr);
+//[20, 30, 40]
+let newArr = arr.filter (element => element < 50)
+
+console.log(newArr)
