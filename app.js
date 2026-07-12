@@ -279,7 +279,32 @@ let arr = [20, 30, 40, 50, 100]
 // //Add element onto end of array:
 // arr.push(200)}
 
-//[20, 30, 40]
-let newArr = arr.filter (element => element < 50)
+//TITLE THIS [20, 30, 40] SHORT VERSION BELOW
+// let newArr = arr.filter (element => element >= 50)
 
-console.log(newArr)
+// console.log(newArr)
+
+/**
+ * Filter out all the 'FAIL' ELEMENTS IN AN ARRAY
+ * 
+ * @examples
+ * ['A+', 'A', 'FAIL'] => ['A+', 'A']
+ * ['FAIL', 'FAIL', 'B'] => ['B']
+ * ['FAIL'] => []
+ */
+
+let grades = ['A+', 'A', 'FAIL']
+
+//LONG VERSION BELOW
+// let goodGrades = grades.filter((element) => {
+//     console.log(element)
+//     if (element !== 'FAIL') {
+//         return true;
+//     }
+// })
+
+//SHORT VERSION BELOW
+let goodGrades = grades.filter(element => element !== 'FAIL')
+
+console.log(goodGrades)
+
