@@ -293,7 +293,7 @@ let arr = [20, 30, 40, 50, 100]
  * ['FAIL'] => []
  */
 
-let grades = ['A+', 'A', 'FAIL']
+// let grades = ['A+', 'A', 'FAIL']
 
 //LONG VERSION BELOW
 // let goodGrades = grades.filter((element) => {
@@ -304,7 +304,39 @@ let grades = ['A+', 'A', 'FAIL']
 // })
 
 //SHORT VERSION BELOW
-let goodGrades = grades.filter(element => element !== 'FAIL')
+// let goodGrades = grades.filter(element => element !== 'FAIL')
 
-console.log(goodGrades)
+// console.log(goodGrades)
+
+
+// for (let i = 0; i < grades.length; ++i) {
+//     console.log(grades[i]);
+// }
+
+/**
+ * Filter out all the 'FAIL' ELEMENTS IN AN ARRAY
+ * WITHOUT USING THE ARRAY.FILTER METHOD
+ * 
+ * @examples
+ * ['A+', 'A', 'FAIL'] => ['A+', 'A']
+ * ['FAIL', 'FAIL', 'B'] => ['B']
+ * ['FAIL'] => []
+ */
+
+let grades = ['A+', 'A', 'FAIL']
+
+// CREATE A NEW EMPLY ARRAY CALLED 'goodGrades'
+let goodGrades = []
+
+//add the current element onto ‘goodGrades’ only if
+    //the current element is not equal to ‘Fail’
+        
+for (let i = 0; i < grades.length; ++i) {
+    if (grades[i] !== 'FAIL') {
+        goodGrades.push(grades[i]);
+    }
+
+    //console log ‘goodGrades’
+    console.log(goodGrades);
+}
 
