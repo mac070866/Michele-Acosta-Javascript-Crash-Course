@@ -341,8 +341,24 @@ for (let i = 0; i < str.length; ++i) {
 // }
 
 
-let arr = [1, 4, 9, 16]
+// let arr = [1, 4, 9, 16]
 
-let newArray = arr.map(element =>  'dog')
+// let newArray = arr.map(element =>  'dog')
 
-console.log(newArray)
+// console.log(newArray)
+
+/**
+ * Turn each element in an array of dollars into cents
+ * 
+ * @examples
+ * [1, 5, 10, 3] => [100, 500, 1000, 300]
+ * [0, 10, 20] => [0, 1000, 2000]
+ */
+
+let dollars = [1, 5, 10, 3];
+
+let cents = dollars.map(element => {
+    return element * 100
+})
+
+console.log(cents)
