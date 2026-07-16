@@ -268,7 +268,7 @@ for (let i = 0; i < str.length; ++i) {
 // console.log(convertCelsiusToFahrenheit(0))
 
 // Arrays below
-let arr = [20, 30, 40, 50, 100]
+// let arr = [20, 30, 40, 50, 100]
 
 // {// First element of array:
 // console.log(arr[0])
@@ -314,29 +314,35 @@ let arr = [20, 30, 40, 50, 100]
 // }
 
 /**
- * Filter out all the 'FAIL' ELEMENTS IN AN ARRAY
- * WITHOUT USING THE ARRAY.FILTER METHOD
- * 
- * @examples
- * ['A+', 'A', 'FAIL'] => ['A+', 'A']
- * ['FAIL', 'FAIL', 'B'] => ['B']
- * ['FAIL'] => []
- */
+//  * Filter out all the 'FAIL' ELEMENTS IN AN ARRAY
+//  * WITHOUT USING THE ARRAY.FILTER METHOD
+//  * 
+//  * @examples
+//  * ['A+', 'A', 'FAIL'] => ['A+', 'A']
+//  * ['FAIL', 'FAIL', 'B'] => ['B']
+//  * ['FAIL'] => []
+//  */
 
-let grades = ['A+', 'A', 'FAIL']
+// let grades = ['A+', 'A', 'FAIL']
 
-// CREATE A NEW EMPLY ARRAY CALLED 'goodGrades'
-let goodGrades = []
+// // CREATE A NEW EMPLY ARRAY CALLED 'goodGrades'
+// let goodGrades = []
 
 //add the current element onto ‘goodGrades’ only if
     //the current element is not equal to ‘Fail’
         
-for (let i = 0; i < grades.length; ++i) {
-    if (grades[i] !== 'FAIL') {
-        goodGrades.push(grades[i]);
-    }
+// for (let i = 0; i < grades.length; ++i) {
+//     if (grades[i] !== 'FAIL') {
+//         goodGrades.push(grades[i]);
+//     }
 
-    //console log ‘goodGrades’
-    console.log(goodGrades);
-}
+//     //console log ‘goodGrades’
+//     console.log(goodGrades);
+// }
 
+
+let arr = [1, 4, 9, 16]
+
+let newArray = arr.map(element =>  'dog')
+
+console.log(newArray)
