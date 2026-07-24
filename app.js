@@ -396,8 +396,14 @@ for (let i = 0; i < str.length; ++i) {
 let user = {
     username:  'David',
     email: 'david@frontendsimplied.com',
-    subscriptionStatus:  'VIP',
+    subcriptionStatus:  'VIP',
     discordId:  'David Bragg#0001',
+    lessonsCompleted: [0, 1]
 }
 
-console.log(user.usernanme);
+console.log(user.username[0]);
+
+console.log(user.subcriptionStatus)
+
+console.log(user.lessonsCompleted.map(elem => elem * 2))
+
