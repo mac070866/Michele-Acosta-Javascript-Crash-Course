@@ -393,17 +393,22 @@ for (let i = 0; i < str.length; ++i) {
 // let userSubscriptionStatus = 'VIP'
 
 
-let user = {
+let users = [
+{    
     username:  'David',
     email: 'david@frontendsimplied.com',
     subcriptionStatus:  'VIP',
     discordId:  'David Bragg#0001',
-    lessonsCompleted: [0, 1]
-}
+    lessonsCompleted: [0, 1],
+},
+{   username:  'Mitri',
+    email: 'mitri@frontendsimplied.com',
+    subcriptionStatus:  'VIP',
+    discordId:  'Mitri#0001',
+    lessonsCompleted: [0, 1, 2, 3]
+},
+];
 
-console.log(user.username[0]);
+console.log(users[0])
 
-console.log(user.subcriptionStatus)
-
-console.log(user.lessonsCompleted.map(elem => elem * 2))
 
