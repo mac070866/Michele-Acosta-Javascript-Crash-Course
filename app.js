@@ -397,18 +397,25 @@ let users = [
 {    
     username:  'David',
     email: 'david@frontendsimplied.com',
+    password: 'test123',
     subcriptionStatus:  'VIP',
     discordId:  'David Bragg#0001',
     lessonsCompleted: [0, 1],
 },
 {   username:  'Mitri',
     email: 'mitri@frontendsimplied.com',
+    password: 'mitri123',
     subcriptionStatus:  'VIP',
     discordId:  'Mitri#0001',
     lessonsCompleted: [0, 1, 2, 3]
 },
 ];
 
-console.log(users[0])
+
+function login(email, password) {
+console.log(email, password);
+}
+
+login('david@frontendsimplified.com', 'test123');
 
 
