@@ -396,7 +396,7 @@ for (let i = 0; i < str.length; ++i) {
 let users = [
 {    
     username:  'David',
-    email: 'david@frontendsimplied.com',
+    email: 'david@frontendsimplified.com',
     password: 'test123',
     subcriptionStatus:  'VIP',
     discordId:  'David Bragg#0001',
@@ -407,17 +407,58 @@ let users = [
 {   
 },
 ];
-function login(email, password) {
-for (let i = 0; i < users.length; ++i) {
-    if (users[i].email === email) {
-    console.log(users[i]);
-    if (users[i].password === password) {
-        console.log('log the user in - the details are correct')
-    }
-}
-}
-}
 
-login('david@frontendsimplified.com', 'test123');
+// function login(email, password) { 
+// for (let i = 0; i < users.length; ++i) {
+//     console.log('this ran@@@')
+//     if (users[i].email === email) {
+//     console.log(users[i]);
+//     if (users[i].password === password) {
+//         console.log('log the user in - the details are correct')
+//     }
+//     else {
+//         console.log('password is incorrect - try again')
+//     }
+//     return;
+// }
+// }
+// console.log ('could not find an email that matches')
+// }
+
+// login('this does not exist@frontendsimplified.com', 'wrong password');
 
 
+/**
+ * Create a register function that accepts:
+ * - username
+ * - email
+ * - password
+ * - subscriptionStatus
+ * - discordId
+ * - lessonsCompleted
+ * 
+ * Inside your register function:
+ * 1. create a user object
+ * 2. push this user object onto the 'users' array
+ * /
+
+
+  function register(
+  username,
+  email,
+  password,
+  subscriptionStatus,
+  discordId,
+  lessonsCompleted
+) {
+  console.log(email, password);
+  }
+  
+  register(
+  "zen",
+  "zen@frontendsimplified.com",
+   "zen123",
+   "VIP",
+   "Zen#0001",
+   [0, 1]
+);
