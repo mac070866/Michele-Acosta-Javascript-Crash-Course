@@ -402,9 +402,19 @@ let users = [
     discordId:  'David Bragg#0001',
     lessonsCompleted: [0, 1],
 },
-{
+{username:  'Mitri',
+    email: 'mitri@frontendsimplified.com',
+    password: 'test123',
+    subcriptionStatus:  'VIP',
+    discordId:  'Mitri Smith#0001',
+    lessonsCompleted: [0, 1],
 },
-{   
+{   username:  'Zen',
+    email: 'zen@frontendsimplified.com',
+    password: 'test123',
+    subcriptionStatus:  'VIP',
+    discordId:  'Zen Jones#0001',
+    lessonsCompleted: [0, 1],
 },
 ];
 
@@ -443,25 +453,25 @@ login('this does not exist@frontendsimplified.com', 'wrong password');
 //  * /
 
 
-  function register(
-  name,
-  email,
-  password,
-  subscriptionStatus,
-  discordId,
-  lessonsCompleted
-) {
-    let user = {
-        username: name,
-    }
-    console.log(user);
-  }
+//   function register(user) {
+//    users.push(user);
+//   }
   
-  register(
-  "Zen",
-  "zen@frontendsimplified.com",
-   "zen123",
-   "VIP",
-   "Zen#0001",
-   [0, 1]
-);
+//   register({
+//   username: "Zen",
+//   email: "zen@frontendsimplified.com",
+//    password: "zen123",
+//    subscriptionStatus: "VIP",
+//    discordID: "Zen#0002",
+//    lessonsCompleted: [0, 1]
+// });
+
+// console.log(users);
+
+
+// First way to accessing an element
+
+console.log(document.querySelector('.title'));
+
+// Second way of accessing an element
+console.log(document.getElementById('title'))
